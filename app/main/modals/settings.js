@@ -12,7 +12,9 @@ angular.module('web')
         maxDownloadJobCount: settingsSvs.maxDownloadJobCount.get(),
         showImageSnapshot: settingsSvs.showImageSnapshot.get(),
         historiesLength : settingsSvs.historiesLength.get(),
-        mailSmtp : settingsSvs.mailSmtp.get()
+        mailSmtp : settingsSvs.mailSmtp.get(),
+        connectTimeout: settingsSvs.connectTimeout.get(),
+        uploadPartSize: settingsSvs.uploadPartSize.get() 
       },
       reg: {
         email: Const.REG.EMAIL

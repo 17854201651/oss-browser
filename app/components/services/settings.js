@@ -52,6 +52,24 @@ angular.module('web')
       set: function(v){
         return localStorage.setItem('mailSender',JSON.stringify(v));
       }
+    },
+
+    connectTimeout: {
+      get: function() {
+        return parseInt(localStorage.getItem('connectTimeout')||30000);
+      },
+      set: function(v){
+        return localStorage.setItem('connectTimeout',v);
+      }
+    },
+
+    uploadPartSize: {
+      get: function() {
+        return parseInt(localStorage.getItem('uploadPartSize')|| 5);
+      },
+      set: function(v){
+        return localStorage.setItem('uploadPartSize',v);
+      }
     }
   };
 }]);

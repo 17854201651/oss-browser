@@ -181,6 +181,8 @@ module.exports = {
   //settings
   'settings.maxUploadNum': '最大上传任务数',
   'settings.maxDownloadNum': '最大下载任务数',
+  'settings.connectTimeout':'超时时间',
+  'settings.uploadPartSize':'分片大小',
   'settings.WhetherShowThumbnail': '是否显示图片缩略',
   'settings.WhetherShowThumbnail.msg': '在文件列表中显示图片缩略, 会消耗一定的流量',
   'settings.success': '已经保存设置',

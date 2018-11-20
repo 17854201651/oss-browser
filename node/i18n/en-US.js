@@ -181,6 +181,8 @@ module.exports = {
   //settings
   'settings.maxUploadNum': 'Upload tasks concurrent number',
   'settings.maxDownloadNum': 'Download tasks concurrent number',
+  'settings.connectTimeout':'overtime',
+  'settings.uploadPartSize':'uploadpart size',
   'settings.WhetherShowThumbnail': 'Whether to show the image thumbnail',
   'settings.WhetherShowThumbnail.msg': 'Displaying thumbnails in the list of files will consume a certain amount of traffic',
   'settings.success': 'Saved successfully',

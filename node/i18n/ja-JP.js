@@ -180,6 +180,8 @@ module.exports = {
   //settings
   'settings.maxUploadNum': 'アップロード並列タスク数',
   'settings.maxDownloadNum': 'ダウンロード並列タスク数',
+  'settings.connectTimeout':'タイムアウト',
+  'settings.uploadPartSize':'スライスサイズ',
   'settings.WhetherShowThumbnail': '画像をサムネイル表示',
   'settings.WhetherShowThumbnail.msg': 'ファイル一覧にサムネイルを表示すると一定量のトラフィックが消費されます',
   'settings.success': '保存を完了しました',
