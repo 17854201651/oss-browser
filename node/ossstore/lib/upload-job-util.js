@@ -233,7 +233,7 @@ function getSensibleChunkSize(size) {
 
   console.warn("localStorage uploadPartSize: "+ localStorage.getItem('uploadPartSize'))
 
-  var chunkSize = parseInt(localStorage.getItem('uploadPartSize') || 5 ) * 1024 * 1024;
+  var chunkSize = parseInt(localStorage.getItem('uploadPartSize') || 10 ) * 1024 * 1024;
 
   if(size < chunkSize){
     return size;
